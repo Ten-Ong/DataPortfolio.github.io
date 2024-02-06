@@ -9,7 +9,16 @@ body {
     font-size: 1.2em;
 }
 /*---------  Nav ------------------*/
-
+.banner{
+   overflow: hidden;
+   
+    
+}
+.banner img{
+    width: 100%;
+    
+    display: flex;
+}
 .navbar-brand{
     font-size: 2em;
     color: rgb(98, 36, 156);
@@ -38,10 +47,7 @@ body {
     margin-bottom: 5px;
 }
 
-.banner {
-    background-color:  rgb(247, 241, 247);
-    color: rgb(98, 36, 156);
-}
+
 
 /*--- content ---*/
 .item:hover{
